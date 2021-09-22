@@ -1,5 +1,9 @@
 <script>
   let active = false;
+  let menu = {
+    active: false,
+    bars: "fa-times",
+  };
 </script>
 
 <header>
@@ -11,7 +15,7 @@
     <a href="#about">about</a>
     <a href="#stocks">stocks</a>
     <a href="#review">review</a>
-    <a href="#order">order</a>
+    <!-- <a href="#order">order</a> -->
   </nav>
 
   <div class="icons">

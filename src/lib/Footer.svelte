@@ -6,7 +6,7 @@
       <a href="/">products</a>
       <a href="/">about</a>
       <a href="/">tocks</a>
-      <a href="/">reivew</a>
+      <a href="/">review</a>
       <a href="/">order</a>
     </div>
 

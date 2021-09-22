@@ -28,39 +28,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 natus dolor cumque?
               </p>
-              <a href="#" class="btn">order now</a>
-            </div>
-            <div class="image">
-              <img src="images/home-img-1.png" alt="" />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide
-          ><div class="swiper-slide slide">
-            <div class="content">
-              <span>our special dish</span>
-              <h3>spicy noodles</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                natus dolor cumque?
-              </p>
-              <a href="#" class="btn">order now</a>
-            </div>
-            <div class="image">
-              <img src="images/home-img-1.png" alt="" />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide
-          ><div class="swiper-slide slide">
-            <div class="content">
-              <span>our special dish</span>
-              <h3>spicy noodles</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                natus dolor cumque?
-              </p>
-              <a href="#" class="btn">order now</a>
+              <a href="/" class="btn">order now</a>
             </div>
             <div class="image">
               <img src="images/home-img-1.png" alt="" />

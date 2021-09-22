@@ -29,7 +29,7 @@
 <Review />
 
 <!-- order section starts  -->
-<Order />
+<!-- <Order /> -->
 
 <!-- footer section starts  -->
 <Footer />
