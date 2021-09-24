@@ -3,7 +3,7 @@
   import Products from "$lib/Products.svelte";
   import Footer from "$lib/Footer.svelte";
   /* import Loader from "$lib/Loader.svelte"; */
-  import Order from "$lib/Order.svelte";
+  /* import Order from "$lib/Order.svelte"; */
   import Pagination from "$lib/Pagination.svelte";
   import Review from "$lib/Review.svelte";
   import Stocks from "$lib/Stocks.svelte";

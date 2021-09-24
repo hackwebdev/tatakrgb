@@ -1,25 +1,24 @@
 <script>
   let active = false;
-  let menu = {
-    active: false,
-    bars: "fa-times",
-  };
+  let menu = false;
 </script>
 
 <header>
-  <a href="/" class="logo"><i class="fas fa-utensils" />TatakRGB</a>
+  <div id="logo">
+    <img src="/logo.svg" alt="" /><a href="/" class="logo">Tatak RGB</a>
+  </div>
 
-  <nav class="navbar">
-    <a class="active" href="#home">home</a>
-    <a href="#products">Products</a>
-    <a href="#about">about</a>
-    <a href="#stocks">stocks</a>
-    <a href="#review">review</a>
+  <nav class={menu ? "navbar active" : "navbar"}>
+    <a on:click={() => (menu = false)} class="active" href="#home">home</a>
+    <a on:click={() => (menu = false)} href="#products">Products</a>
+    <a on:click={() => (menu = false)} href="#about">about</a>
+    <a on:click={() => (menu = false)} href="#stocks">stocks</a>
+    <a on:click={() => (menu = false)} href="#review">review</a>
     <!-- <a href="#order">order</a> -->
   </nav>
 
   <div class="icons">
-    <i class="fas fa-bars" id="menu-bars" />
+    <i class="fas fa-bars" id="menu-bars" on:click={() => (menu = !menu)} />
     <i
       on:click={() => (active = true)}
       class="fas fa-search"
@@ -35,3 +34,14 @@
   <label for="search-box" class="fas fa-search" />
   <i on:click={() => (active = false)} class="fas fa-times" id="close" />
 </form>
+
+<style>
+  #logo {
+    display: flex;
+    height: 40px;
+    align-items: center;
+  }
+  #logo img {
+    height: 60px;
+  }
+</style>
