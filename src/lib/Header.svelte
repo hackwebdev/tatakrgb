@@ -9,11 +9,11 @@
   </div>
 
   <nav class={menu ? "navbar active" : "navbar"}>
-    <a on:click={() => (menu = false)} class="active" href="#home">home</a>
-    <a on:click={() => (menu = false)} href="#products">Products</a>
-    <a on:click={() => (menu = false)} href="#about">about</a>
-    <a on:click={() => (menu = false)} href="#stocks">stocks</a>
-    <a on:click={() => (menu = false)} href="#review">review</a>
+    <a on:click={() => (menu = false)} class="active" href="/#home">home</a>
+    <a on:click={() => (menu = false)} href="/#products">Products</a>
+    <a on:click={() => (menu = false)} href="/#about">about</a>
+    <a on:click={() => (menu = false)} href="/#stocks">stocks</a>
+    <a on:click={() => (menu = false)} href="/#review">review</a>
     <!-- <a href="#order">order</a> -->
   </nav>
 
@@ -24,8 +24,8 @@
       class="fas fa-search"
       id="search-icon"
     />
-    <a href="/" class="fas fa-heart"><span /></a>
-    <a href="/" class="fas fa-shopping-cart"><span /></a>
+    <a href="/liked" class="fas fa-heart"><span /></a>
+    <a href="/cart" class="fas fa-shopping-cart"><span /></a>
   </div>
 </header>
 

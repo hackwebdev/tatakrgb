@@ -4,8 +4,7 @@
 
 <svelte:head>
   <title>Tatak RGB</title>
-  <meta name="robots" content="noindex nofollow" />
-  <html lang="en" />
+  <meta name="description" content="RGB Leathercrafts store" />
 </svelte:head>
 <Header />
 
